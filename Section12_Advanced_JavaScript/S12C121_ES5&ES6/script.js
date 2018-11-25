@@ -15,14 +15,18 @@ if (experience > 90){
 
 console.log("Outside block", wizardLevel);
 
-function pairs(a=[],b=0){
-    
-    for(let i=0; i<a.length; i++){
-        for(let j=i+1; j<a.length; j++){
-            if(a[i]+a[j]===b){
-                return true;
-            }
-        }
-    }
-    return false;
+//template strings
+const name = "Sally"
+const age = 34;
+const pet = "horse"
+
+const greeting = `Hello ${name} you seem to be ${age-10}. what a lovely ${pet} you have!`
+
+//Arrow functions
+function add(a, b){
+    return a+b;
+}
+
+const add = (a, b) =>{ 
+    return a+b
 }
