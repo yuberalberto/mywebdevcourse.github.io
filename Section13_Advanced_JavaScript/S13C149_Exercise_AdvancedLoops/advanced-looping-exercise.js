@@ -62,6 +62,17 @@ amazonBasket = {
 function checkBasket(basket, lookingFor) {
   for(product in basket){
     if(product === lookingFor) return true;
-    else return false; 
   }
+  return false; 
 }
+
+debugger;
+checkBasket(amazonBasket, "floss");
+
+console.log(1);
+setTimeout(,);
+
+function foo(){
+  foo();
+}
+foo();
