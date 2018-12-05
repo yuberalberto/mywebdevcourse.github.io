@@ -22,6 +22,8 @@ const organized = inputArr =>{
     let  orderedArr = orderAndFilter(inputArr);
     let outputArr=[];
     let auxArray=[];
+
+    //iterates over the ordered and filtered array that is composed of two elements 
     for(let element of orderedArr){
         let aux1=[];
         for(let i=0; i<element.length; i++){
