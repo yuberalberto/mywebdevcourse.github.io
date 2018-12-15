@@ -23,7 +23,6 @@ const first = (sayhi) =>{
 
 const newFunc = first();
 newFunc();
-
 //Study about Closures, Currying, Compose
 
 //As a web developer we need to Avoid Side effects and aim for functional purity
